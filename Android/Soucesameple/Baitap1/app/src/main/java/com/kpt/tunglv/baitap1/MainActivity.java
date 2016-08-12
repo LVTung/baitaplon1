@@ -24,5 +24,7 @@ RecyclerView rcvNews;
         }
         rcvNewsAdapter rcvNewsAdapter=new rcvNewsAdapter(line_newsbeanlist);
         rcvNews.setAdapter(rcvNewsAdapter);
+
+        rcvNews.addItemDecoration(new DividerItemDecoration(this, R.drawable.divider));
     }
 }
