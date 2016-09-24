@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3fabb5</color>
+    <color name="colorPrimaryDark">#60626b</color>
+    <color name="colorAccent">#ff405d</color>
+    <color name="colorSplash">#fcaebe</color>
+    <color name="colorLoginTitle">#fc6885</color>
+    <color name="colorLoginYourname">#30a437</color>
+    <color name="colorLoginYourlove">#e0be59</color>
+</resources>

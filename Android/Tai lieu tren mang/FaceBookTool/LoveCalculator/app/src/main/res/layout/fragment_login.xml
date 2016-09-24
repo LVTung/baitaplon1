@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kpt.tunglv.lovecalculator.Login.Login">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:id="@+id/txtFLoginTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="LOVE CALCULATOR"
+        android:textSize="25sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/colorLoginTitle" />
+
+    <TextView
+        android:id="@+id/txtFLoginYourName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="50dp"
+        android:text="Your name:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/colorLoginYourname" />
+
+    <EditText
+        android:id="@+id/edtFLoginYourName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/circledrawable" />
+
+    <TextView
+        android:id="@+id/txtFYourlovename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Your loves name:"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/colorLoginYourlove"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/etdFYourlovename"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/circledrawable2" />
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/btnFCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:textSize="25sp"
+        android:background="@color/colorSplash"
+        android:text="Calculate" />
+</LinearLayout>

@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fResult2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.kpt.tunglv.lovecalculator.Result.Result">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/txtfnamers2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="fname"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/colorLoginTitle"
+        android:textSize="25sp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_weight="5">
+
+        <ImageView
+            android:id="@+id/imvHeartrs2"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorLoginYourlove"
+            android:scaleType="fitXY"
+            android:src="@drawable/heart_outline" />
+
+        <TextView
+            android:id="@+id/txtPercentagers2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="percentage"
+            android:textColor="#FFFFFF"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25sp" />
+
+    </FrameLayout>
+
+
+    <TextView
+        android:id="@+id/txtSnamers2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="Sname"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/colorLoginTitle"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtResult2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:text="Result"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btnRetryrs2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorLoginTitle"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp"
+        android:text="Retry"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+</LinearLayout>
