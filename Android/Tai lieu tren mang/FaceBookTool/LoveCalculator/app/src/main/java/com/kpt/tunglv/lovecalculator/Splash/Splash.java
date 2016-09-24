@@ -1,7 +1,6 @@
 package com.kpt.tunglv.lovecalculator.Splash;
 
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
@@ -40,14 +39,13 @@ public class Splash extends Fragment {
                 try {
                     // Thread will sleep for 3 seconds
                     sleep(3 * 1000);
-                    // After 3 seconds redirect to another intent
+                    // After 3 seconds redirect to another Fragment
                     android.support.v4.app.FragmentManager fragmentManager = getActivity().getSupportFragmentManager();
                     android.support.v4.app.FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
                     Login login = new Login();
                     fragmentTransaction.replace(R.id.fragment_place, login);
                     fragmentTransaction.addToBackStack(null);
                     fragmentTransaction.commit();
-                    //Remove activity
                 } catch (Exception e) {
                 }
             }
