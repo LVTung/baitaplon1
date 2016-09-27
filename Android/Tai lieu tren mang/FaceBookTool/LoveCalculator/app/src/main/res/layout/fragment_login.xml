@@ -15,9 +15,9 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
         android:text="LOVE CALCULATOR"
-        android:textSize="25sp"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="@color/colorLoginTitle" />
+        android:textColor="@color/colorLoginTitle"
+        android:textSize="25sp" />
 
     <TextView
         android:id="@+id/txtFLoginYourName"
@@ -35,18 +35,39 @@
         android:layout_height="50dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:background="@drawable/circledrawable" />
+        android:textColor="@color/colorLoginYourname"
+        android:background="@drawable/circledrawable"
+        android:paddingLeft="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imvYourname"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/colorLoginYourlove" />
+
+        <Button
+            android:id="@+id/btnYourname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Image Yourname" />
+    </LinearLayout>
+
 
     <TextView
         android:id="@+id/txtFYourlovename"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:text="Your loves name:"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:textColor="@color/colorLoginYourlove"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:layout_marginTop="50dp"
+        android:text="Your loves name:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/colorLoginYourlove" />
 
     <EditText
         android:id="@+id/etdFYourlovename"
@@ -54,17 +75,37 @@
         android:layout_height="50dp"
         android:layout_marginLeft="5dp"
         android:layout_marginRight="5dp"
-        android:background="@drawable/circledrawable2" />
+        android:textColor="@color/colorLoginYourlove"
+        android:background="@drawable/circledrawable2"
+        android:paddingLeft="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imvLovename"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:background="@color/colorLoginYourlove" />
+
+        <Button
+            android:id="@+id/btnLovename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Image Yourname" />
+    </LinearLayout>
 
     <Button
-        android:layout_marginTop="50dp"
         android:id="@+id/btnFCalculate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorSplash"
         android:paddingLeft="30dp"
         android:paddingRight="30dp"
-        android:textSize="25sp"
-        android:background="@color/colorSplash"
-        android:text="Calculate" />
+        android:text="Calculate"
+        android:textSize="25sp" />
 </LinearLayout>
